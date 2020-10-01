@@ -53,6 +53,7 @@ nav.navbar-transparent {
 
 .btn-roxo {
 	background: #7c25f8;
+	padding: 12px 20px;
 }
 
 .btn-roxo:hover {
@@ -61,12 +62,34 @@ nav.navbar-transparent {
 }
 
 .btn-branco {
-	border: 2px solid white;
+	border: 3px solid white;
 }
 
 .btn-branco:hover {
 	background: white;
 	color: black;
+}
+
+/* Conteudos */
+
+#servicos {
+	background: white;
+	padding: 30px 0 30px 0;
+}
+
+#servicos h2, h3 {
+	color: #7c25f8;
+}
+#servicos h3 {
+	margin-top: 40px;
+}
+
+#servicos p {
+	padding-top: 15px;
+}
+
+.albuns {
+	padding: 15px 0;
 }
 
 /* Tipografia */
@@ -76,6 +99,12 @@ h1 {
 	letter-spacing: -0.04em;
 	margin-bottom: 50px;
 	color: white;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
@@ -90,7 +119,7 @@ h1 {
 	h1 {
 		font-size: 4em;
 	}
-	
+
 	.btn-custom {
 		margin: 8px 0;
 	}
