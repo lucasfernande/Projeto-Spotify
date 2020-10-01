@@ -2,3 +2,26 @@ body {
 	background: url(../img/capa.png), url(../img/ruido.png), linear-gradient(50deg, #ff4169, #267cf8);
 	background-attachment: fixed;
 }
+
+nav.navbar-transparent {
+	background: rgba(0, 0, 0, 0.6);
+	padding: 15px 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+	border: none;
+}
+
+.divisor {
+	width: 1px;
+	margin: 12px 15px;
+	background: white;
+}
